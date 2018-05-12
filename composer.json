@@ -1,0 +1,19 @@
+{
+    "name": "waken/composer3",
+    "description": "first test composer pkg",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "waken",
+            "email": "569314096@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MW\\": "src/MW"
+        }
+    }
+}
