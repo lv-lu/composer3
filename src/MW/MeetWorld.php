@@ -9,4 +9,9 @@ class MeetWorld
     {
         return 'hello world';
     }
+
+    public function b()
+    {
+        return 'b';
+    }
 }
